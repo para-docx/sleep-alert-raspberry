@@ -4,7 +4,7 @@ import tensorflow as tf
 import numpy as np
 from pygame import mixer
 import tensorflow as tf
-from pushbullet import Pushbullet
+# from pushbullet import Pushbullet
 
 mixer.init()
 sound = mixer.Sound('alarm.wav')
@@ -27,12 +27,12 @@ thicc=2
 rpred=[99]
 lpred=[99]
 
-api_key = 'o.a8w1EbG5LRmSVBiwFBgancdisMDPrzF8'
-pb = Pushbullet(api_key)
+# api_key = 'o.a8w1EbG5LRmSVBiwFBgancdisMDPrzF8'
+# pb = Pushbullet(api_key)
 
-#notification initialization
-def send_notification(title, message):
-    push = pb.push_note(title, message)
+# #notification initialization
+# def send_notification(title, message):
+#     push = pb.push_note(title, message)
 
 
 while(True):
@@ -94,10 +94,10 @@ while(True):
     cv2.putText(frame,'Score:'+str(score),(100,height-20), font, 1,(255,255,255),1,cv2.LINE_AA)
     if(score>15):
 
-        # Person is feeling sleepy, so send Pushbullet notification
-        title = 'High Sleep Score Alert'
-        message = 'The sleep score is {}. Time to check on your sleep!'.format(score)
-        send_notification(title, message)
+        # # Person is feeling sleepy, so send Pushbullet notification
+        # title = 'High Sleep Score Alert'
+        # message = 'The sleep score is {}. Time to check on your sleep!'.format(score)
+        # send_notification(title, message)
 
 
         cv2.imwrite(os.path.join(path,'image.jpg'),frame)
