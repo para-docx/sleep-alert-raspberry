@@ -17,6 +17,8 @@ This project implements a drowsiness detection system using computer vision and 
 - Optimised for Raspberry Pi Zero.
 
 ## Preview
+Raspberry Pi zero Setup
+[!raspberry pi](./assets/hardWare.jpg)
 
 ## Badges
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white) 
