@@ -18,7 +18,7 @@ This project implements a drowsiness detection system using computer vision and 
 
 ## Preview
 Raspberry Pi zero Setup
-[!raspberry pi](./assets/hardWare.jpg)
+[!raspberry](https://github.com/para-docx/sleep-alert-raspberry/blob/2d743130d1634812a9c2bfdb55b2f01e86287839/assets/hardWare.png)
 
 ## Badges
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white) 
