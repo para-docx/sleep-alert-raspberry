@@ -27,7 +27,6 @@ thicc=2
 rpred=[99]
 lpred=[99]
 
-# api_key = 'o.a8w1EbG5LRmSVBiwFBgancdisMDPrzF8'
 # pb = Pushbullet(api_key)
 
 # #notification initialization
