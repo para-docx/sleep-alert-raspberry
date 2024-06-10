@@ -15,7 +15,7 @@ buzzer = Buzzer(26)
 
 class_names = open("labels.txt", "r").readlines()
 
-api_key = 'o.8A3yoAGz6eiHfiySQihP4rQPNqNTEY03'
+# api_key = get your own on https://www.pushbullet.com/#settings
 pb = Pushbullet(api_key)
 
 # Load the TFLite model
