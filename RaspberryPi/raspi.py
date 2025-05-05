@@ -6,7 +6,10 @@ from pushbullet import Pushbullet
 from imutils.video import VideoStream
 from gpiozero import Buzzer
 from time import sleep
+from dotenv import load_env
+import os
 
+load_env()
 
 drowsy_frame_count = 0
 drowsy_threshold = 10
@@ -15,7 +18,7 @@ buzzer = Buzzer(26)
 
 class_names = open("labels.txt", "r").readlines()
 
-api_key = 'o.8A3yoAGz6eiHfiySQihP4rQPNqNTEY03'
+api_key = os.getenv ("API_KEY")
 pb = Pushbullet(api_key)
 
 # Load the TFLite model
